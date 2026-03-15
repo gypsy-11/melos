@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun run scripts/dev-with-api.ts",
-    "dev:vite": "NODE_OPTIONS='--max-old-space-size=4096' vite --port ${PORT:-5173}",
+    "dev:vite": "bun node_modules/vite/bin/vite.js --port ${PORT:-5173}",
     "dev:api": "bun --watch scripts/api-standalone-server.ts",
     "api:start": "NODE_ENV=production bun run scripts/api-standalone-server.ts",
     "start": "NODE_ENV=production bun run scripts/api-standalone-server.ts",
@@ -154,6 +154,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
+    "@rollup/rollup-darwin-x64": "4.59.0",
     "@tailwindcss/typography": "^0.5.19",
     "@tauri-apps/api": "^2.0.0",
     "@tauri-apps/cli": "^2.9.6",
