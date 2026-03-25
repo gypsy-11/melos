@@ -96,8 +96,10 @@ export const CANONICAL_MEMORY_KEYS = [
   "context",        // Important ongoing life context
   
   // Meta
-  "preferences",    // General preferences, likes/dislikes
-  "instructions",   // How to respond, communication style
+  "preferences",         // General preferences, likes/dislikes
+  "instructions",        // Explicit instructions for how to respond
+  "communication_style", // How they write: vocabulary, tone, formality, Kiwi/regional expressions, signature phrases
+  "expertise",           // Deep domain knowledge demonstrated fluently in conversation
 ] as const;
 
 // ============================================================================

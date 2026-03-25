@@ -199,9 +199,11 @@ Capture what the USER discussed, their mood, plans, topics, questions, problems.
 
 ## longTermMemories (permanent facts)
 Stable facts about the USER worth remembering permanently.
-CANONICAL KEYS: name, birthday, location, work, skills, education, projects, music_pref, food_pref, interests, entertainment, family, friends, pets, goals, current_focus, context, preferences, instructions
+CANONICAL KEYS: name, birthday, location, work, skills, education, projects, music_pref, food_pref, interests, entertainment, family, friends, pets, goals, current_focus, context, preferences, instructions, communication_style, expertise
 
 What qualifies: identity, stable facts (job, pets, family), preferences, instructions
+For communication_style: vocabulary level, formality, regional/cultural expressions, sentence patterns, signature phrases, writing quirks observed consistently across the conversation.
+For expertise: deep domain knowledge the user demonstrates fluently — specific tools, frameworks, fields, or concepts they use without needing explanation.
 What does NOT: temporary events, moods, plans, things already in existing memories
 
 RULES:
