@@ -580,7 +580,7 @@
           "title": "Dateien erstellen und bearbeiten"
         },
         "joinChatRooms": {
-          "description": "Verbinden Sie sich mit anderen in öffentlichen Chaträumen. Erwähnen Sie @ryo für KI-Antworten.",
+          "description": "Verbinden Sie sich mit anderen in öffentlichen Chaträumen. Erwähnen Sie @mel für KI-Antworten.",
           "title": "Chaträumen beitreten"
         },
         "nudgeDjMode": {
@@ -654,7 +654,7 @@
         "pleaseLoginToSendMessages": "Bitte melden Sie sich an, um Nachrichten zu senden.",
         "recording": "Aufnahme läuft...",
         "retry": "Wiederholen",
-        "ryo": "@ryo",
+        "ryo": "@mel",
         "ryoWillRespond": "Ryo wird auf diese Nachricht antworten.",
         "scrollToBottom": "Zum Ende scrollen",
         "sessionExpired": "Sitzung abgelaufen. Bitte melden Sie sich erneut an.",

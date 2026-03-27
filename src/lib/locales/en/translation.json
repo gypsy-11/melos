@@ -287,7 +287,7 @@
       "commands": "Commands"
     },
     "topHits": "Top Hits",
-    "askRyo": "Ask Ryo",
+    "askRyo": "Ask Mel",
     "noResults": "No results found",
     "hintClose": "close",
     "hintOpen": "open",
@@ -730,20 +730,20 @@
       },
       "help": {
         "chatWithRyo": {
-          "title": "Chat with Ryo",
-          "description": "Type your message to chat with Ryo, generate code, or get help with ryOS."
+          "title": "Chat with Mel",
+          "description": "Type your message to chat with Mel, generate code, or get help with MelOS."
         },
         "createEditFiles": {
           "title": "Create & Edit Files",
-          "description": "Ask Ryo to create HTML applets, edit documents, read files, or search the Applets Store."
+          "description": "Ask Mel to create HTML applets, edit documents, read files, or search the Applets Store."
         },
         "controlApps": {
           "title": "Control Apps",
-          "description": "Ask Ryo to launch or close apps, switch themes, or control iPod playback."
+          "description": "Ask Mel to launch or close apps, switch themes, or control iPod playback."
         },
         "joinChatRooms": {
           "title": "Join Chat Rooms",
-          "description": "Connect with others in public chat rooms. Mention @ryo for AI responses."
+          "description": "Connect with others in public chat rooms. Mention @mel for AI responses."
         },
         "pushToTalk": {
           "title": "Push to Talk",
@@ -751,7 +751,7 @@
         },
         "nudgeDjMode": {
           "title": "Nudge & DJ Mode",
-          "description": "Send 👋 nudge for context-aware tips. Ryo becomes a DJ when music is playing."
+          "description": "Send 👋 nudge for context-aware tips. Mel becomes a DJ when music is playing."
         }
       },
       "dialogs": {
@@ -788,13 +788,13 @@
         "loginToChat": "Login to Chat",
         "clear": "Clear",
         "leave": "Leave",
-        "ryo": "@ryo",
+        "ryo": "@mel",
         "chatRequiresInternet": "Chat requires an internet connection",
-        "ryoWillRespond": "Ryo will respond to this message",
+        "ryoWillRespond": "Mel will respond to this message",
         "usingModel": "Using {{model}}",
         "noTranscriptionText": "No transcription text received",
         "dailyLimitReached": "Daily AI message limit reached.",
-        "loginToContinue": "Login to continue chatting with Ryo.",
+        "loginToContinue": "Login to continue chatting with Mel.",
         "sessionExpired": "Session expired. Please login again.",
         "loginRequired": "Login Required",
         "pleaseLoginToSendMessages": "Please login to send messages.",
@@ -819,7 +819,7 @@
       },
       "ariaLabels": {
         "sendNudge": "Send a Nudge",
-        "mentionRyo": "Mention Ryo",
+        "mentionRyo": "Mention Mel",
         "pushToTalk": "Push to Talk",
         "attachImage": "Attach image",
         "selectedImage": "Selected image",
@@ -843,9 +843,9 @@
       },
       "messages": {
         "you": "You",
-        "ryo": "Ryo",
+        "ryo": "Mel",
         "delete": "Delete",
-        "greeting": "👋 hey! i'm ryo. ask me anything!"
+        "greeting": "👋 hey! i'm mel. ask me anything!"
       },
       "toolCalls": {
         "loadingMusicLibrary": "Loading music library…",
@@ -1868,7 +1868,7 @@
         },
         "worksWithChats": {
           "title": "Works with Chats",
-          "description": "Ask Ryo to play songs, control playback, or adjust settings via chat."
+          "description": "Ask Mel to play songs, control playback, or adjust settings via chat."
         },
         "keyboardShortcuts": {
           "title": "Keyboard Shortcuts",
@@ -2028,10 +2028,10 @@
       },
       "commands": {
         "about": "About terminal",
-        "ai": "Enter AI chat mode with ryo",
+        "ai": "Enter AI chat mode with mel",
         "cat": "View file contents",
         "cd": "Change directory",
-        "chat": "Chat with ryo (alias)",
+        "chat": "Chat with mel (alias)",
         "clear": "Clear terminal screen",
         "cowsay": "A talking cow",
         "date": "Display current date/time",
@@ -2045,7 +2045,7 @@
         "pwd": "Show current directory",
         "open": "Open app, file, or applet",
         "rm": "Move file to trash",
-        "ryo": "Chat with ryo",
+        "ryo": "Chat with mel",
         "su": "Switch or create user",
         "touch": "Create empty file",
         "vim": "Open file in vim editor",
@@ -2089,9 +2089,9 @@
         "lastLogin": "last login: {{time}}",
         "typeHelpForCommands": "type 'help' to see available commands",
         "commandNotFound": "command not found: {{cmd}}. type 'help' for a list of available commands.",
-        "askRyoAnything": "ask ryo anything. type 'exit' to return to terminal.",
-        "askRyoWithPrompt": "ask ryo anything. type 'exit' to return to terminal.\n→ from your command: {{prompt}}",
-        "chatCleared": "chat cleared. you're still chatting with ryo. type 'exit' to return to terminal.",
+        "askRyoAnything": "ask mel anything. type 'exit' to return to terminal.",
+        "askRyoWithPrompt": "ask mel anything. type 'exit' to return to terminal.\n→ from your command: {{prompt}}",
+        "chatCleared": "chat cleared. you're still chatting with mel. type 'exit' to return to terminal.",
         "isThinking": "is thinking"
       },
       "help": {
@@ -2109,7 +2109,7 @@
         },
         "aiAssistant": {
           "title": "AI Assistant",
-          "description": "Type \"ryo <prompt>\" to chat with Ryo AI directly inside the terminal."
+          "description": "Type \"ryo <prompt>\" to chat with Mel directly inside the terminal."
         },
         "fileEditing": {
           "title": "File Editing",
@@ -2317,7 +2317,7 @@
       "login": "Login",
       "telegram": {
         "title": "Telegram",
-        "description": "Chat with Ryo in Telegram",
+        "description": "Chat with Mel in Telegram",
         "loggedOutDescription": "Log in to link Telegram to your ryOS account",
         "checking": "Checking Telegram link...",
         "linkedAs": "Linked as {{account}}",
@@ -2855,8 +2855,8 @@
           "description": "Import .vcf files from the File menu to bring contacts into ryOS"
         },
         "useWithRyo": {
-          "title": "Use with Ryo",
-          "description": "Ryo can list, create, update, and search synced contacts in chat and Telegram"
+          "title": "Use with Mel",
+          "description": "Mel can list, create, update, and search synced contacts in chat and Telegram"
         },
         "cloudSync": {
           "title": "Cloud Sync",

@@ -169,12 +169,12 @@ export function useRyoChat({
 
   const detectAndProcessMention = useCallback(
     (input: string): { isMention: boolean; messageContent: string } => {
-      if (input.startsWith("@ryo ")) {
-        // Extract the message content after @ryo
+      if (input.startsWith("@mel ")) {
+        // Extract the message content after @mel
         const messageContent = input.substring(4).trim();
         return { isMention: true, messageContent };
-      } else if (input === "@ryo") {
-        // If they just typed @ryo without a message, treat it as a nudge
+      } else if (input === "@mel") {
+        // If they just typed @mel without a message, treat it as a nudge
         return { isMention: true, messageContent: t("apps.chats.status.nudgeSent") };
       }
       return { isMention: false, messageContent: "" };

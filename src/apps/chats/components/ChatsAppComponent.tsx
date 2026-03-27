@@ -504,7 +504,7 @@ export function ChatsAppComponent({
             ? currentRoom.type === "private"
               ? getPrivateRoomDisplayName(currentRoom, username)
               : `#${currentRoom.name}`
-            : "@ryo"
+            : "@mel"
         }
         onClose={onClose}
         isForeground={isForeground}
@@ -655,7 +655,7 @@ export function ChatsAppComponent({
                         ? currentRoom.type === "private"
                           ? getPrivateRoomDisplayName(currentRoom, username)
                           : `#${currentRoom.name}`
-                        : "@ryo"}
+                        : "@mel"}
                     </h2>
                     <CaretDown className="h-2.5 w-2.5 transform transition-transform duration-200 text-neutral-400" weight="bold" />
                   </Button>

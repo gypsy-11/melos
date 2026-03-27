@@ -580,7 +580,7 @@
           "title": "Créer et modifier des fichiers"
         },
         "joinChatRooms": {
-          "description": "Connectez-vous avec d'autres dans des salons de discussion publics. Mentionnez @ryo pour des réponses IA.",
+          "description": "Connectez-vous avec d'autres dans des salons de discussion publics. Mentionnez @mel pour des réponses IA.",
           "title": "Rejoindre les salons de discussion"
         },
         "nudgeDjMode": {
@@ -654,7 +654,7 @@
         "pleaseLoginToSendMessages": "Veuillez vous connecter pour envoyer des messages.",
         "recording": "Enregistrement en cours...",
         "retry": "Réessayer",
-        "ryo": "@ryo",
+        "ryo": "@mel",
         "ryoWillRespond": "Ryo répondra à ce message",
         "scrollToBottom": "Faire défiler vers le bas",
         "sessionExpired": "Session expirée. Veuillez vous reconnecter.",

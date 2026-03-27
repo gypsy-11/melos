@@ -580,7 +580,7 @@
           "title": "Crear y editar archivos"
         },
         "joinChatRooms": {
-          "description": "Conéctate con otros en salas de chat públicas. Menciona a @ryo para respuestas de IA.",
+          "description": "Conéctate con otros en salas de chat públicas. Menciona a @mel para respuestas de IA.",
           "title": "Unirse a Salas de Chat"
         },
         "nudgeDjMode": {
@@ -654,7 +654,7 @@
         "pleaseLoginToSendMessages": "Inicia sesión para enviar mensajes.",
         "recording": "Grabando...",
         "retry": "Reintentar",
-        "ryo": "@ryo",
+        "ryo": "@mel",
         "ryoWillRespond": "Ryo responderá a este mensaje",
         "scrollToBottom": "Desplazarse al final",
         "sessionExpired": "La sesión ha caducado. Inicia sesión de nuevo.",

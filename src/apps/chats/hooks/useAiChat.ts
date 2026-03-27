@@ -2369,7 +2369,7 @@ export function useAiChat(onPromptSetUsername?: () => void) {
                 hour12: true,
               })
             : "";
-          const sender = msg.role === "user" ? username || "You" : "Ryo";
+          const sender = msg.role === "user" ? username || "You" : "Mel";
           const content = getAssistantVisibleText(msg);
           return `**${sender}** (${time}):\n${content}`;
         })

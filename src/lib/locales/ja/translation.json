@@ -580,7 +580,7 @@
           "title": "ファイルの作成と編集"
         },
         "joinChatRooms": {
-          "description": "公開チャットルームで他のユーザーと接続。@ryoに言及してAI応答を取得。",
+          "description": "公開チャットルームで他のユーザーと接続。@melに言及してAI応答を取得。",
           "title": "チャットルームに参加"
         },
         "nudgeDjMode": {
@@ -654,7 +654,7 @@
         "pleaseLoginToSendMessages": "メッセージを送信するにはログインしてください",
         "recording": "録音中...",
         "retry": "再試行",
-        "ryo": "@ryo",
+        "ryo": "@mel",
         "ryoWillRespond": "Ryoがこのメッセージに返信します",
         "scrollToBottom": "一番下までスクロール",
         "sessionExpired": "セッションの有効期限が切れました。もう一度ログインしてください。",

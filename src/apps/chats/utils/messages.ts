@@ -37,7 +37,7 @@ export const buildDisplayMessages = ({
 
   return aiMessages.slice(-messageRenderLimit).map((msg) => ({
     ...msg,
-    username: msg.role === "user" ? username || "You" : "Ryo",
+    username: msg.role === "user" ? username || "You" : "Mel",
   }));
 };
 

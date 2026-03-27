@@ -580,7 +580,7 @@
           "title": "Crea & Modifica File"
         },
         "joinChatRooms": {
-          "description": "Connettiti con altri nelle chat room pubbliche. Menziona @ryo per risposte AI.",
+          "description": "Connettiti con altri nelle chat room pubbliche. Menziona @mel per risposte AI.",
           "title": "Unisciti a Chat Room"
         },
         "nudgeDjMode": {
@@ -654,7 +654,7 @@
         "pleaseLoginToSendMessages": "Accedi per inviare messaggi.",
         "recording": "Registrando...",
         "retry": "Riprova",
-        "ryo": "@ryo",
+        "ryo": "@mel",
         "ryoWillRespond": "Ryo risponderà a questo messaggio",
         "scrollToBottom": "Scorri in basso",
         "sessionExpired": "Sessione scaduta. Accedi di nuovo.",

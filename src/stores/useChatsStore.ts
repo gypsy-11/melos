@@ -242,7 +242,7 @@ export interface ChatsStoreState {
   logout: () => Promise<void>; // Logout and clear all user data
 }
 
-const GREETING_FALLBACK = "👋 hey! i'm ryo. ask me anything!";
+const GREETING_FALLBACK = "👋 hey! i'm mel. ask me anything!";
 
 const getInitialAiMessage = (): AIChatMessage => ({
   id: "1",

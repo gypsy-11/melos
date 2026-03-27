@@ -72,7 +72,7 @@ const consolidationSchema = z.object({
 
 const DAILY_NOTES_EXTRACTION_PROMPT = `You are analyzing daily journal notes about a USER to extract permanent long-term memories.
 
-These notes were collected by an AI assistant ("Ryo") during conversations over past days.
+These notes were collected by an AI assistant ("Mel") during conversations over past days.
 Each day's notes capture what the user discussed, their mood, plans, topics, and context.
 
 Your job: identify STABLE, LASTING facts worth remembering permanently.

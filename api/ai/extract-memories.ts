@@ -178,11 +178,11 @@ export function resolveDailyNoteSourceTimestamp(
   return null;
 }
 
-const EXTRACTION_PROMPT = `You are analyzing a conversation between a USER and an AI assistant named "Ryo" to extract memories.
+const EXTRACTION_PROMPT = `You are analyzing a conversation between a USER and an AI assistant named "Mel" to extract memories.
 
 CRITICAL - WHO IS WHO:
 - Lines labeled "User" are the HUMAN user. Extract facts about THEM.
-- Lines labeled "Ryo" are the AI ASSISTANT. Do NOT attribute Ryo's statements, opinions, or knowledge to the user.
+- Lines labeled "Mel" are the AI ASSISTANT. Do NOT attribute Mel's statements, opinions, or knowledge to the user.
 - Only extract what the USER directly said, asked, mentioned, or revealed about themselves.
 
 You will output TWO types of memories:
@@ -255,7 +255,7 @@ export async function extractMemoriesFromConversation({
     }));
   const conversationText = conversationMessages
     .map((message, index) => {
-      const role = message.role === "user" ? "User" : "Ryo";
+      const role = message.role === "user" ? "User" : "Mel";
       const timestampLabel =
         typeof message.sourceTimestamp === "number"
           ? new Date(message.sourceTimestamp).toISOString()

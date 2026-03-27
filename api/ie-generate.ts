@@ -16,7 +16,7 @@ import {
 import { normalizeUrlForCacheKey } from "./_utils/_url.js";
 import {
   CORE_PRIORITY_INSTRUCTIONS,
-  RYO_PERSONA_INSTRUCTIONS,
+  MEL_PERSONA_INSTRUCTIONS,
   IE_HTML_GENERATION_INSTRUCTIONS,
   } from "./_utils/_aiPrompts.js";
 import { SUPPORTED_AI_MODELS } from "./_utils/_aiModels.js";
@@ -109,7 +109,7 @@ const getDynamicSystemPrompt = (
   const YEAR_NOT_SPECIFIED_INSTRUCTIONS = `Year not specified. Assume current year ${currentYear}.`;
 
   const PERSONA_INSTRUCTIONS_BLOCK = `ABOUT THE DESIGNER (RYO LU):
-${RYO_PERSONA_INSTRUCTIONS}`;
+${MEL_PERSONA_INSTRUCTIONS}`;
 
   // --- Determine Year Specific Instructions ---
 

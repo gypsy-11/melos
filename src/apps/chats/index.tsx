@@ -11,7 +11,7 @@ export const ChatsApp: BaseApp = {
   id: "chats",
   name: "Chats",
   icon: { type: "image", src: appMetadata.icon },
-  description: "Chat with Ryo, your personal AI assistant",
+  description: "Chat with Mel, your personal AI companion",
   component: ChatsAppComponent,
   helpItems,
   metadata: appMetadata,

@@ -580,7 +580,7 @@
           "title": "파일 생성 및 편집"
         },
         "joinChatRooms": {
-          "description": "공개 채팅방에서 다른 사용자와 연결. @ryo 언급으로 AI 응답 받기.",
+          "description": "공개 채팅방에서 다른 사용자와 연결. @mel 언급으로 AI 응답 받기.",
           "title": "채팅방 참가"
         },
         "nudgeDjMode": {
@@ -654,7 +654,7 @@
         "pleaseLoginToSendMessages": "메시지를 보내려면 로그인하세요.",
         "recording": "녹음 중...",
         "retry": "다시 시도",
-        "ryo": "@ryo",
+        "ryo": "@mel",
         "ryoWillRespond": "Ryo가 이 메시지에 응답할 것입니다",
         "scrollToBottom": "맨 아래로 스크롤",
         "sessionExpired": "세션이 만료되었습니다. 다시 로그인해주세요.",

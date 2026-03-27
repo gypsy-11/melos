@@ -580,7 +580,7 @@
           "title": "建立與編輯檔案"
         },
         "joinChatRooms": {
-          "description": "在公開聊天室中與他人聯繫。提及 @ryo 以獲得 AI 回應。",
+          "description": "在公開聊天室中與他人聯繫。提及 @mel 以獲得 AI 回應。",
           "title": "加入聊天室"
         },
         "nudgeDjMode": {
@@ -654,7 +654,7 @@
         "pleaseLoginToSendMessages": "請登入以傳送訊息。",
         "recording": "正在錄音...",
         "retry": "重試",
-        "ryo": "@ryo",
+        "ryo": "@mel",
         "ryoWillRespond": "Ryo 將回覆此訊息。",
         "scrollToBottom": "捲動至底部",
         "sessionExpired": "工作階段已過期。請重新登入。",

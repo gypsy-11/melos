@@ -61,7 +61,7 @@ export function showAiMessageNotification(
 ): void {
   const { content, messageId } = params;
   const preview = content.replace(/\s+/g, " ").trim().slice(0, 100);
-  const title = "@Ryo";
+  const title = "@Mel";
   const tag = "chat-ai";
 
   const shown = showChatNotification({

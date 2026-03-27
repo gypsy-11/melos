@@ -127,7 +127,7 @@ const SEARCHABLE_COMMANDS = [
   { name: "grep", description: "Search text", keywords: ["find", "search", "pattern"] },
   { name: "whoami", description: "Current user", keywords: ["user", "name"] },
   { name: "cowsay", description: "ASCII cow", keywords: ["fun", "cow", "ascii"] },
-  { name: "ryo", description: "Ask Ryo AI", keywords: ["ai", "chat", "assistant"] },
+  { name: "ryo", description: "Ask Mel", keywords: ["ai", "chat", "assistant"] },
 ];
 
 const MAX_RESULTS_PER_TYPE = 4;
