@@ -189,9 +189,9 @@ export default defineConfig({
         "fonts/*.woff2",
       ],
       manifest: {
-        name: "ryOS",
-        short_name: "ryOS",
-        description: "An AI OS experience, made with Cursor",
+        name: "MelOS",
+        short_name: "MelOS",
+        description: "MelOS — a world built around Mel's life. Travel, music, joy, and vibe coding.",
         theme_color: "#000000",
         background_color: "#000000",
         display: "standalone",

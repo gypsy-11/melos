@@ -480,7 +480,7 @@ export default async function handler(
     return;
   }
 
-  const isExemptUser = linkedAccount.username === "ryo";
+  const isExemptUser = linkedAccount.username === "mel";
 
   if (!isExemptUser) {
     const userBurstLimit = await RateLimit.checkCounterLimit({

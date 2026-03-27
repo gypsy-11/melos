@@ -381,7 +381,7 @@ export async function getAnalyticsDetail(
       aiRateLimits.push({
         identifier: username,
         currentCount: parseInt(String(rlResults[i] || "0"), 10),
-        limit: username === "ryo" ? -1 : 15,
+        limit: username === "mel" ? -1 : 15,
         windowLabel: "5h",
       });
     }
