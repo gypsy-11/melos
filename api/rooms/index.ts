@@ -69,7 +69,7 @@ export default apiHandler(
         res.status(400).json({ error: "Room name is required for public rooms" });
         return;
       }
-      if (username !== "ryo") {
+      if (username !== "mel") {
         logger.response(403, Date.now() - startTime);
         res.status(403).json({ error: "Forbidden - Only admin can create public rooms" });
         return;

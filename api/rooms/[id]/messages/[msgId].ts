@@ -22,7 +22,7 @@ export default apiHandler(
   },
   async ({ req, res, logger, startTime, user }) => {
     const username = user?.username || "";
-    if (username !== "ryo") {
+    if (username !== "mel") {
       logger.warn("Admin required", { username });
       logger.response(403, Date.now() - startTime);
       res.status(403).json({ error: "Forbidden - admin required" });

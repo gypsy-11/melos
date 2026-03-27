@@ -406,7 +406,7 @@ const ChatMessageItem = memo(function ChatMessageItem(props: ChatMessageItemProp
     hasAquarium = aquariumParts.length > 0;
   }
   if (
-    (message.role === "human" || message.username === "ryo") &&
+    (message.role === "human" || message.username === "mel") &&
     hasAquariumToken
   ) {
     hasAquarium = true;

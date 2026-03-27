@@ -91,7 +91,7 @@ export default apiHandler(
           return;
         }
       } else {
-        if (username !== "ryo") {
+        if (username !== "mel") {
           logger.response(403, Date.now() - startTime);
           res.status(403).json({ error: "Unauthorized - admin required" });
           return;

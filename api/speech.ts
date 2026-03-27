@@ -41,7 +41,7 @@ export default apiHandler<SpeechRequest>(
   async ({ req, res, logger, startTime, body, user }) => {
     const username = user?.username ?? null;
     const isAuthenticated = !!user;
-    const isAuthenticatedRyo = isAuthenticated && username === "ryo";
+    const isAuthenticatedRyo = isAuthenticated && username === "mel";
     const identifier = username;
 
     logger.info("Processing speech request", {

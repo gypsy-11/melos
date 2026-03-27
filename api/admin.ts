@@ -45,7 +45,7 @@ interface UserProfile {
 
 async function deleteUser(redis: Redis, targetUsername: string): Promise<{ success: boolean; error?: string }> {
   const normalizedUsername = targetUsername.toLowerCase();
-  if (normalizedUsername === "ryo") return { success: false, error: "Cannot delete admin user" };
+  if (normalizedUsername === "mel") return { success: false, error: "Cannot delete admin user" };
 
   try {
     await redis.del(`${CHAT_USERS_PREFIX}${normalizedUsername}`);
@@ -190,7 +190,7 @@ async function getUserMessages(redis: Redis, targetUsername: string, limit = 50)
 
 async function banUser(redis: Redis, targetUsername: string, reason?: string): Promise<{ success: boolean; error?: string }> {
   const normalizedUsername = targetUsername.toLowerCase();
-  if (normalizedUsername === "ryo") return { success: false, error: "Cannot ban admin user" };
+  if (normalizedUsername === "mel") return { success: false, error: "Cannot ban admin user" };
 
   try {
     const userKey = `${CHAT_USERS_PREFIX}${normalizedUsername}`;
@@ -374,7 +374,7 @@ export default apiHandler<AdminRequest>(
     logger.info("Processing admin request", { username, hasToken: !!authResolution.user?.token });
 
     // Keep historical contract: any non-admin state returns 403.
-    if (authResolution.error || !authResolution.user || authResolution.user.username !== "ryo") {
+    if (authResolution.error || !authResolution.user || authResolution.user.username !== "mel") {
       logger.warn("Admin access denied", { username, authError: authResolution.error });
       logger.response(403, Date.now() - startTime);
       res.status(403).json({ error: "Forbidden - Admin access required" });

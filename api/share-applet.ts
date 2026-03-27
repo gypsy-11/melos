@@ -236,7 +236,7 @@ export default apiHandler<Record<string, unknown>>(
     // DELETE: Delete applet (admin only)
     if (req.method === "DELETE") {
       const username = authResolution.user?.username || null;
-      const adminAccess = !authResolution.error && username === "ryo";
+      const adminAccess = !authResolution.error && username === "mel";
       if (!adminAccess) {
         logger.response(403, Date.now() - startTime);
         res.status(403).json({ error: "Forbidden" });
@@ -282,7 +282,7 @@ export default apiHandler<Record<string, unknown>>(
     // PATCH: Update applet (admin only)
     if (req.method === "PATCH") {
       const username = authResolution.user?.username || null;
-      const adminAccess = !authResolution.error && username === "ryo";
+      const adminAccess = !authResolution.error && username === "mel";
       if (!adminAccess) {
         logger.response(403, Date.now() - startTime);
         res.status(403).json({ error: "Forbidden" });
