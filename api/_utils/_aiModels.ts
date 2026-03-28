@@ -23,7 +23,7 @@ export type SupportedModel = keyof typeof AI_MODELS;
 export const SUPPORTED_AI_MODELS = Object.keys(AI_MODELS) as SupportedModel[];
 
 // Default model
-export const DEFAULT_MODEL: SupportedModel = "gpt-5.4";
+export const DEFAULT_MODEL: SupportedModel = "sonnet-4.6";
 export const TELEGRAM_DEFAULT_MODEL: SupportedModel = DEFAULT_MODEL;
 
 type OpenAIReasoningEffort = "none" | "medium";
